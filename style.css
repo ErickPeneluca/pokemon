@@ -1,0 +1,19 @@
+img{
+    position: absolute;
+    top: 10000px;
+    display: inline-block;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(estrada.png); 
+}
+#img1 {
+    left: 300px;
+}
+#img2 {
+    left:500px;
+}
+#img3 {
+    left: 100px;
+}
