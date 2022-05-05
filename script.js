@@ -20,9 +20,10 @@ function tentaIniciar() {
         i.style.top = posicaoInicial + "px";
         // i.style.paddingTop = 100 + "px"
         console.log(i);
-        if(posicaoInicial == 0)
+        if(posicaoInicial <= 0)
         {
-            alert("o ganhador foi " + i)
+            alert("A corrida acabou")
+            window.location.assign("http://127.0.0.1:5500/pokemon/corrida.html");
         }
     }, 50);
 }
